@@ -1,0 +1,75 @@
+{
+    "name": "WiredMedia Repository",
+    "homepage": "http://satis.wiredmedia.co.uk",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "ssh://git@git.wiredmedia.co.uk:2020/WiredMediaCatalogBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@git.wiredmedia.co.uk:2020/WiredMediaPageBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@git.wiredmedia.co.uk:2020/WiredMediaStoreBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@git.wiredmedia.co.uk:2020/WiredMediaThemeBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@git.wiredmedia.co.uk:2020/WiredMediaUserBundle"
+        },
+        {
+            "type": "package",
+            "package": {
+                "version": "master",
+                "name": "twitter/bootstrap",
+                "source": {
+                    "url": "git://github.com/twitter/bootstrap.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/twitter/bootstrap/zipball/master",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "version": "master",
+                "name": "modernizr/modernizr",
+                "source": {
+                    "url": "git://github.com/Modernizr/Modernizr.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/Modernizr/Modernizr/zipball/master",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "version": "master",
+                "name": "keithclark/selectivizr",
+                "source": {
+                    "url": "git://github.com/keithclark/selectivizr.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/keithclark/selectivizr/zipball/master",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "require-all": true
+}
