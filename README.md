@@ -1,7 +1,7 @@
 Satistrano - Capistrano-ready Satis Package Repository Generator
 ====================================
 
-Satistrano builds on top of Satis to make it a little easier to test locally and deploy.
+Satistrano builds on top of [Satis](https://github.com/composer/satis) to make it a little easier to test locally and deploy.
 
 The project includes basic Capistrano configuration extending the Capifony recipies.
 
@@ -18,8 +18,8 @@ Usage
 
 Find more information in the relevent documentation:
 
-Satis: https://github.com/composer/satis
-Capistrano: https://github.com/capistrano/capistrano
+Satis: https://github.com/composer/satis<br />
+Capistrano: https://github.com/capistrano/capistrano<br />
 Capifony: http://capifony.org
 
 Updating
