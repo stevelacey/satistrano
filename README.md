@@ -9,8 +9,8 @@ Usage
 -----
 
 - Download [Composer](https://getcomposer.org/download/): `curl -sS https://getcomposer.org/installer | php`
-- Install satis: `php composer.phar create-project composer/satis --stability=dev --keep-vcs`
-- Build a repository: `php bin/satis build <composer.json> <build-dir>`
+- Install satistrano: `git clone https://github.com/stevelacey/satistrano.git satis`
+- Build a repository: `php bin/satis build app/config/repository.json web`
 - Install Capistrano: `gem install capistrano`
 - Install Capifony: `gem install capifony`
 - Configure: `app/config/deploy.rb` and `app/config/repository.json` (examples provided)
@@ -27,7 +27,7 @@ Updating
 
 Updating is as simple as running `git pull && php composer.phar install` in the satis directory.
 
-Make sure you merge in any changes from composer/satis and pull request me to do the same.
+Make sure you merge in any changes from [composer/satis](https://github.com/composer/satis) and pull request me to do the same.
 
 Requirements
 ------------
