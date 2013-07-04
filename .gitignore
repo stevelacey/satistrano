@@ -1,2 +1,4 @@
+/app/config/deploy.rb
+/app/config/repository.json
 /vendor
 /web
